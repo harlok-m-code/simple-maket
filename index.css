@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial,serif;
+}
+
+
+/*Header*/
+.header{
+    width: 100%;
+
+    padding: 0;
+}
+
+.header-div{
+    width: 946px;
+    height: 87px;
+
+    margin: 30px auto;
+    padding: 0;
+
+}
+
+.elements{
+    list-style-type: none;
+
+    padding: 0;
+
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.shapka{
+    font-weight:600;
+}
+
+.shapka a {
+    text-decoration: none;
+    color: grey;
+}
+
+.vector {
+    border-bottom: 2px solid grey;
+}
+
+
+/*Main*/
+.main {
+    width: 100%;
+}
+
+.main-div {
+    margin: 0 auto;
+
+    width: 946px;
+}
+
+.about-me1{
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.name{
+    width: 150px;
+
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.job{
+    width: 150px;
+    
+    font-size: 20px;
+    font-weight: normal;
+
+    padding-top: 25px;
+}
+
+.language{
+
+    margin-bottom: 30px;
+
+    padding-right: 25px;
+
+    transform: rotate(270deg);
+    transform-origin: top right;
+    position: relative;
+    right: 23px;
+}
+
+.img-man {
+    width: 946px;
+
+    margin-bottom: 140px;
+}
+
+.parent{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+
+/* .about-me{
+    margin: 0 auto;
+} */
+
+.about-me-heading{
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about-me-text {
+    margin: 0 auto;
+    padding: 10px;
+    
+
+    width: 450px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+.skills {
+    margin-top: 80px;
+    padding-bottom: 90px;
+
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    width: 946px;
+
+    margin: 0 auto;
+}
+
+.skill-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.skills-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-skills {
+    display: inline-block;
+    padding-top: 55px;
+
+
+    width: 167px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 52px;
+    left: 39px;
+}
+
+.text-skills{
+
+    
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: grey;
+}
+
+.star{
+    width: 26px;
+    height: 26px;
+
+    border-radius: 1px;
+}
+
+
+.portfolio {
+    width: 100%;
+    padding-top: 80px;
+
+    background-color: rgb(241, 241, 241);
+}
+
+.portfolio-div{
+    width: 946px;
+    margin: 0 auto;
+}
+
+.h1-port{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.name-shop {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+.name-shopp {
+    padding-bottom: 100px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+.img-port{
+    padding-top: 65px;
+    padding-bottom: 20px;
+}
+
+
+/*Footer*/
+
+.footer{
+    margin-top: 90px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.footer-div{
+    position: relative;
+
+    width: 946px;
+
+    margin: 0 auto;
+}
+
+.contact{
+    text-align: center;
+
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.con-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.message{
+    margin-top: 20px;
+
+    width: 180px;
+    height: 42px;
+
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+
+    position: absolute;
+    right: 380px;
+}
+/* 
+.message a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+} */
